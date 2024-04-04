@@ -3,11 +3,11 @@ a = int(input("A :"))
 b = int(input("B :"))
 c = 0
 j = 0
-for i in range(a+1, b+1):
-    if i % 2 == 0:
-        j +=1
-    else:
-        print(i)
-        c +=1
-print("Count Even Number:",j)
-print("Count of Odd Number:",c)
+sum = 0
+for i in range(a, b+1):
+    sum += i
+    if i % 3 == 0 and i % 5:
+        j+=1
+
+print("Count Number is devied by number 3 & 5:",j)
+print("Sum of Number:",sum)
