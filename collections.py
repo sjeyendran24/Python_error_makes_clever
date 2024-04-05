@@ -1,4 +1,3 @@
-# list allow duplicates
 a = [1, 2, 3, 4, 5, 6]
 b = [11, 12, 13, 14, 15, 16]
 print(a)
@@ -18,9 +17,3 @@ print(len(a))
 print(a)
 a.index(3)
 print(a)
-# list is mutable
-# list is ordered
-# list is indexed
-
-# list is can be change
-# list can be created using list()
